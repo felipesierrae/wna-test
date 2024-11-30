@@ -1,0 +1,27 @@
+
+region = "us-east-1"
+profile_name = "wna-test"
+cidr_block                 = "10.0.0.0/16"
+vpc_name                   = "vpc-wna"
+public_subnet_1_cidr       = "10.0.1.0/24"
+public_subnet_2_cidr       = "10.0.2.0/24"
+private_subnet_1_cidr      = "10.0.3.0/24"
+private_subnet_2_cidr      = "10.0.4.0/24"
+public_subnet_1_az         = "us-east-1a"
+public_subnet_2_az         = "us-east-1b"
+private_subnet_1_az        = "us-east-1a"
+private_subnet_2_az        = "us-east-1b"
+public_subnet_1_name       = "Public Subnet 1"
+public_subnet_2_name       = "Public Subnet 2"
+private_subnet_1_name      = "Private Subnet 1"
+private_subnet_2_name      = "Private Subnet 2"
+igw_name                   = "Internet Gateway"
+nat_gw_name                = "NAT Gateway"
+public_route_table_name    = "Public Route Table"
+private_route_table_name   = "Private Route Table"
+
+instance_type        = "t3.micro"
+ami_id               = "ami-0166fe664262f664c"
+instance_name_prefix = "webserver"
+min_size             = 2
+max_size             = 4
